@@ -68,7 +68,30 @@ body.custom-background { background-color: #3f1066; }
 <li id="menu-item-25" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-25"><a href="https://nesdb2017.github.io/category/sponsors/">Sponsors</a></li>
 <li id="menu-item-155" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-155"><a href="https://nesdb2017.github.io/category/abstract_submission/">Registration &amp; Abstract Submission</a></li>
 </ul></div></div><div id="inner"><div id="content-sidebar-wrap"><div id="content" class="hfeed"><div class="post-90 page type-page status-publish hentry entry"><h1 class="entry-title">Home</h1> 
-<div class="entry-content"><p><a href="./Home - 2017 Northeast Regional Society for Developmental Biology_files/Logo-NESDB-05.jpg"><img class="alignnone wp-image-50 size-full" src="./Home - 2017 Northeast Regional Society for Developmental Biology_files/Logo-NESDB-05.jpg" alt="Top3" width="350" height="335"></a></p>
+<div class="entry-content"><p><a href="./Home - 2017 Northeast Regional Society for Developmental Biology_files/Logo-NESDB-05.jpg"><img class="alignnone wp-image-50 size-full" src="./Home - 2017 Northeast Regional Society for Developmental Biology_files/Logo-NESDB-05.jpg" alt="Top3" width="350" height="335"></a></p><h2 class="w3-center">Automatic Slideshow</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="img_la.jpg" style="width:100%">
+  <img class="mySlides" src="img_ny.jpg" style="width:100%">
+  <img class="mySlides" src="img_chicago.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 <h4>Meeting organizers:</h4>
 <p><strong><a href="https://you.stonybrook.edu/matuslab/" target="_blank">David Matus</a>, Stony Brook University</strong><br>
 <strong><a href="https://biology.qc.cuny.edu/people/faculty/cathy-savage-dunn/" target="_blank">Cathy Savage-Dunn</a>, Queens College</strong></p>
