@@ -2196,6 +2196,23 @@ div.gform_wrapper .gform_footer {
 	padding: 0;
 }
 
+/* side by side divider class ------*/
+
+.container{
+   width: 500px;
+   height: 500px;
+   line-height: 500px;
+   text-align:center;
+   border:1px solid red;
+}
+
+.child{
+
+   width:100px;
+   height:100px;
+   border:1px solid black;
+   display:inline-block;
+}
 
 /* Genesis Slider Plugin
 ------------------------------------------------------------ */
