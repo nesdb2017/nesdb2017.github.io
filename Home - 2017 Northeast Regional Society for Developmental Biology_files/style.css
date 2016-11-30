@@ -3692,6 +3692,7 @@ div.gform_wrapper .gform_footer {
 }
 #ui-block-a {
 
+	background-color: rgb(0, 0, 0);
 	min-height: 400px;
 	max-height: 400px;
 	min-width: 400px;
