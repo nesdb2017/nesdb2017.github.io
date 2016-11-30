@@ -3672,7 +3672,12 @@ div.gform_wrapper .gform_footer {
 	
 }
 /* My ui elements for table ----------*/
+#ui-block-a {
 
+	min-height: 400px;
+	max-height: 400px;
+    padding: 30px;
+}
 #ui-block-b {
 
 	background-color: rgba(184, 58, 199, 0.22);
