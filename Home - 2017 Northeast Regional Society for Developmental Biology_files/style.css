@@ -3702,6 +3702,7 @@ div.gform_wrapper .gform_footer {
 
 	background-color: rgba(184, 58, 199, 0.22);
     text-align: left;
+    padding-left: 20px;
     min-height: 400px;
     min-width: 400px;
 }
