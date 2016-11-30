@@ -3675,8 +3675,10 @@ div.gform_wrapper .gform_footer {
 
 #ui-block-b {
 
-	background-color: white;
+	background-color: rgba(184, 58, 199, 0.22);
     text-align: left;
+    width:100%;
+    margin:10px;
     padding: 30px;
 }
 
