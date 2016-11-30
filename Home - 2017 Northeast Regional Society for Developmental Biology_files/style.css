@@ -3676,14 +3676,15 @@ div.gform_wrapper .gform_footer {
 
 	min-height: 400px;
 	max-height: 400px;
-    margin-top: : 20px;
+    margin: 20px;
+    padding: 30px;
 }
 #ui-block-b {
 
 	background-color: rgba(184, 58, 199, 0.22);
     text-align: left;
-    width:100%;
-    margin:20px;
+    width: 100%;
+    margin: 20px;
     padding: 30px;
 }
 
