@@ -213,9 +213,9 @@ body { }
 }
 
 #title {
-	font-family: 'Molengo', arial, serif;
-	font-size: 30px;
-	line-height: 1;
+	font-family: 'Molengo', arial, sans-serif;
+	font-size: 32px;
+	line-height: 1.5;
 	margin: 0;
 }
 
@@ -3678,7 +3678,7 @@ div.gform_wrapper .gform_footer {
 	background-color: rgba(184, 58, 199, 0.22);
     text-align: left;
     width:100%;
-    margin:10px;
+    margin:20px;
     padding: 30px;
 }
 
