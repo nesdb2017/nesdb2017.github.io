@@ -3679,7 +3679,12 @@ div.gform_wrapper .gform_footer {
 #footer {
     text-align: center;
 }
-
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #f9f9f9;
+    border-color: #bbb;
+    color: #333;
+    text-shadow: 0 0 0 #f3f3f3;
+}
 #ui-grid-a {
 
 	background-color: rgba(0, 0, 0, 1);
