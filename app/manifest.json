@@ -1,6 +1,6 @@
 {
   "name": "NESDB 2017 Offline Page",
-  "short_name": "NESDB 2017 is offline",
+  "short_name": "NESDB",
   "icons": [{
     "src": "images/apple-touch-icon-144x144-precomposed.png",
     "sizes": "144x144"
@@ -8,7 +8,8 @@
     "src": "images/NESDB-2017.jpg",
     "sizes": "350x347"
   }],
-  "start_url": "index.html",
+  "start_url": "/index.html",
+  "scope": "/",
   "display": "standalone",
   "orientation": "portrait"
 }
