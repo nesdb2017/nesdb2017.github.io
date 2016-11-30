@@ -3693,7 +3693,7 @@ div.gform_wrapper .gform_footer {
 }
 
 body .ui-body-c, body .ui-overlay-c { 
-	text-shadow:0px, 0px, #555 ;
+	text-shadow:0px 0px #555 ;
 
 }
 
