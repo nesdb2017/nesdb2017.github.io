@@ -3672,7 +3672,14 @@ div.gform_wrapper .gform_footer {
 	}
 	
 }
-/* My ui elements for table ----------*/
+
+/*  Custom Code 
+-----------------------------------*/
+/* Center align text in footer */
+#footer {
+    text-align: center;
+}
+
 #ui-block-a {
 
 	min-height: 400px;
@@ -3690,18 +3697,4 @@ div.gform_wrapper .gform_footer {
     min-width: 400px;
     max-width: 400px;
     margin: 20px;
-}
-
-body .ui-body-c, body .ui-overlay-c { 
-	text-shadow:0px 0px #555 ;
-
-}
-
-
-
-/*  Custom Code 
------------------------------------*/
-/* Center align text in footer */
-#footer {
-    text-align: center;
 }
