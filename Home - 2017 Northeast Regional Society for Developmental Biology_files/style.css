@@ -3691,7 +3691,11 @@ div.gform_wrapper .gform_footer {
 	text-shadow: 0 0 0 #555;
 
 }
-
+.frame {
+    height: 400px;      /* equals max image height */
+    width: 400px;
+    white-space: nowrap;
+}
 .helper{
 	display: inline-block;;
 	height: 100%;
