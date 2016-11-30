@@ -8,7 +8,7 @@
     "src": "images/NESDB-2017.jpg",
     "sizes": "350x347"
   }],
-  "start_url": "/index.html",
+  "start_url": "nesdb2017.github.io/index.html",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait"
