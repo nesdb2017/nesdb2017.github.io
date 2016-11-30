@@ -3687,24 +3687,21 @@ div.gform_wrapper .gform_footer {
 }
 #ui-grid-a {
 
-	background-color: rgba(0, 0, 0, 1);
+	text-shadow: 0 0 0 #555;
 
 }
 #ui-block-a {
 
+	background-color: rgba(184, 58, 199, 0.22);
 	min-height: 400px;
 	max-height: 400px;
 	min-width: 400px;
     max-width: 400px;
-    margin: 20px;
 }
 #ui-block-b {
 
 	background-color: rgba(184, 58, 199, 0.22);
     text-align: left;
     min-height: 400px;
-	max-height: 400px;
     min-width: 400px;
-    max-width: 400px;
-    margin: 20px;
 }
