@@ -136,7 +136,7 @@ ol,
 ul {
 	margin: 0;
 	padding: 0;
-	text-shadow: 0,0,0;
+	text-shadow: 0px 0px #555;
 }
 
 ol li {
@@ -3697,13 +3697,11 @@ body .ui-body-c, body .ui-overlay-c {
 
 }
 
+
+
 /*  Custom Code 
 -----------------------------------*/
 /* Center align text in footer */
 #footer {
     text-align: center;
-}
-/* Hide standard Sites@UCI Footer message. Redundant on this theme. */
-#wpmu-footer-html { 
-     display: none; 
 }
