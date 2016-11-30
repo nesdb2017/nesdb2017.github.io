@@ -1318,6 +1318,7 @@ h6 {
 img {
 	height: auto;
 	max-width: 100%;
+	vertical-align: middle;
 }
 
 .avatar,
@@ -3690,6 +3691,14 @@ div.gform_wrapper .gform_footer {
 	text-shadow: 0 0 0 #555;
 
 }
+
+.helper{
+	display: inline-block;;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
 #ui-block-a {
 
 	background-color: rgb(0, 0, 0);
