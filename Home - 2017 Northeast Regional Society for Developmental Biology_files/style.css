@@ -3680,6 +3680,11 @@ div.gform_wrapper .gform_footer {
     text-align: center;
 }
 
+#ui-grid-a {
+
+	background-color: rgba(0, 0, 0, 1);
+
+}
 #ui-block-a {
 
 	min-height: 400px;
