@@ -134,8 +134,8 @@ body.custom-background { background-color: #3f1066; }
 <div class="entry-content">
 
 <div class="ui-grid-a ui-responsive" style="height: 50%">
-<div id="ui-block-a" class="ui-block-a helper">
-<div class="w3-content w3-section">
+  <div id="ui-block-a" class="ui-block-a">
+  <div class="w3-content w3-section">
   <div class="frame"><span class="helper">
     <img class="mySlides w3-animate-fading" src="./Home - 2017 Northeast Regional Society for Developmental Biology_files/cutroot.jpg" style="width:400px"></span></div>
   <div class="frame"><span class="helper">
@@ -185,25 +185,26 @@ body.custom-background { background-color: #3f1066; }
   <div class="frame"><span class="helper">
     <img class="mySlides w3-animate-fading" src="./Home - 2017 Northeast Regional Society for Developmental Biology_files/oocspemb.jpg" style="width:400px"></span></div>
 
-<script>
-var myIndex = 0;
-carousel();
+    <script>
+    var myIndex = 0;
+    carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 9000); // Change image every 9 seconds
     }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 9000); // Change image every 9 seconds
-}
-</script>
+    </script>
 </div>
 </div>
-
+<!--remove this-->
+</div>
 <div class="ui-grid-a ui-responsive">
 <div id="ui-block-b" class="ui-block-b">
 <div class="w3-content w3-section">
