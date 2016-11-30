@@ -10,6 +10,6 @@
   }],
   "start_url": "nesdb2017.github.io/index.html",
   "scope": "/",
-  "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "display": "standalone"
 }
