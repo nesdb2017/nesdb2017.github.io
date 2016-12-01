@@ -136,6 +136,7 @@ ol,
 ul {
 	margin: 0;
 	padding: 0;
+	text-shadow: 0px 0px #555;
 }
 
 ol li {
@@ -213,8 +214,8 @@ body { }
 }
 
 #title {
-	font-family: 'Molengo', arial, serif;
-	font-size: 38px;
+	font-family: 'Molengo', arial, sans-serif;
+	font-size: 32px;
 	line-height: 1.5;
 	margin: 0;
 }
@@ -898,7 +899,7 @@ ul.menu li.sfHover ul,
 
 #content-sidebar-wrap {
 	float: left;
-	width: 750px;
+	width: 100%;
 }
 
 .content-sidebar #content-sidebar-wrap,
@@ -1317,6 +1318,7 @@ h6 {
 img {
 	height: auto;
 	max-width: 100%;
+	vertical-align: middle;
 }
 
 .avatar,
@@ -2196,6 +2198,23 @@ div.gform_wrapper .gform_footer {
 	padding: 0;
 }
 
+/* side by side divider class ------*/
+
+.container{
+   width: 500px;
+   height: 500px;
+   line-height: 500px;
+   text-align:center;
+   border:1px solid red;
+}
+
+.child{
+
+   width:100px;
+   height:100px;
+   border:1px solid black;
+   display:inline-block;
+}
 
 /* Genesis Slider Plugin
 ------------------------------------------------------------ */
@@ -3661,7 +3680,42 @@ div.gform_wrapper .gform_footer {
 #footer {
     text-align: center;
 }
-/* Hide standard Sites@UCI Footer message. Redundant on this theme. */
-#wpmu-footer-html { 
-     display: none; 
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #f9f9f9;
+    border-color: #bbb;
+    color: #333;
+    text-shadow: 0 0 0 #f3f3f3;
+}
+#ui-grid-a {
+
+	text-shadow: 0 0 0 #555;
+
+}
+.frame {
+    height: 400px;      /* equals max image height */
+    width: 400px;
+    white-space: nowrap;
+}
+.helper{
+	display: inline-block;;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+#ui-block-a {
+
+	background-color: rgb(0, 0, 0);
+	min-height: 400px;
+	max-height: 400px;
+	min-width: 400px;
+    max-width: 400px;
+}
+#ui-block-b {
+
+	background-color: rgba(184, 58, 199, 0.22);
+    text-align: left;
+    padding-left: 20px;
+    min-height: 400px;
+    min-width: 400px;
 }
