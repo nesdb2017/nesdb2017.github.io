@@ -1317,7 +1317,7 @@ h6 {
 
 img {
 	height: auto;
-	max-width: 100%;
+	max-width: 400px;
 	vertical-align: middle;
 }
 
@@ -3691,24 +3691,10 @@ div.gform_wrapper .gform_footer {
 	text-shadow: 0 0 0 #555;
 
 }
-.frame {
-    height: 400px;      /* equals max image height */
-    width: 400px;
-    white-space: nowrap;
-}
-.helper{
-	display: inline-block;;
-	height: 100%;
-	vertical-align: middle;
-}
-
 
 #ui-block-a {
 
 	background-color: rgb(0, 0, 0);
-	min-height: 400px;
-	max-height: 400px;
-	min-width: 400px;
     max-width: 400px;
 }
 #ui-block-b {
@@ -3717,5 +3703,5 @@ div.gform_wrapper .gform_footer {
     text-align: left;
     padding-left: 20px;
     min-height: 400px;
-    min-width: 400px;
+    max-width: 400px;
 }

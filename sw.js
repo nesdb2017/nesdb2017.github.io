@@ -12,7 +12,24 @@
 */
 
 'use strict';
-
+var filesToCache = [
+  '/',
+  '/index.html',
+  '/offline.html',
+  '/manifest.json',
+  '/home/Artboard 1.png',
+  '/home/Artboard 2.png',
+  '/home/Artboard 3.png',
+  '/home/Artboard 4.png',
+  '/home/Artboard 5.png',
+  '/home/Artboard 6.png',
+  '/home/Artboard 7.png',
+  '/home/Artboard 8.png',
+  '/home/Artboard 9.png',
+  '/home/Artboard 10.png',
+  '/home/Artboard 11.png',
+  '/home/NESDB-2017.jpg',
+  ];
 // Incrementing CACHE_VERSION will kick off the install event and force previously cached
 // resources to be cached again.
 const CACHE_VERSION = 1;
@@ -43,6 +60,7 @@ self.addEventListener('install', event => {
     fetch(createCacheBustedRequest(OFFLINE_URL)).then(function(response) {
       return caches.open(CURRENT_CACHES.offline).then(function(cache) {
         return cache.put(OFFLINE_URL, response);
+        eturn cache.addAll(filesToCache)
       });
     })
   );
