@@ -60,7 +60,7 @@ self.addEventListener('install', event => {
     fetch(createCacheBustedRequest(OFFLINE_URL)).then(function(response) {
       return caches.open(CURRENT_CACHES.offline).then(function(cache) {
         return cache.put(OFFLINE_URL, response);
-        eturn cache.addAll(filesToCache)
+        return cache.addAll(filesToCache)
       });
     })
   );
