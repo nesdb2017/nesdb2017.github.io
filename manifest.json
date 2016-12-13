@@ -1,7 +1,8 @@
 {
     "short_name": "NESDB 2017",
     "name": "Northeast Regional Society for Developmental Biology Meeting 2017",
-    "description": "Progressive web application developed by R. Antonio Herrera. http://ranton.io",
+    "description": "Progressive web application developed by R. Antonio Herrera, PhD (http://ranton.io) for 
+    the 2017 NESDB Meeting.",
     "icons": [
         {
             "src": "./home/launcher-icon.png",
@@ -32,6 +33,6 @@
     "start_url": "./index.html",
     "display": "standalone",
     "orientation": "portrait",
-    "theme_color": "#29BDBB",
+    "theme_color": "#00cc00",
     "background_color": "#3f1066"
 }
