@@ -1,7 +1,7 @@
 {
-    "short_name": "Arrivals",
-    "name": "Arrivals at Sky High",
-    "description": "Progressive web application demonstration",
+    "short_name": "NESDB 2017",
+    "name": "Northeast Regional Society for Developmental Biology Meeting 2017",
+    "description": "Progressive web application developed by R. Antonio Herrera. http://ranton.io",
     "icons": [
         {
             "src": "./home/launcher-icon.png",
