@@ -80,15 +80,16 @@
 <div class="post-29 post type-post status-publish format-standard hentry category-Poster entry">
 <div class="entry-content">
 <div class="w3-content w3-section" style="height: 100%" style="width: 100%">
-<p><img src="https://nesdb2017.github.io/home/NESDB2017-poster_4.jpg" alt="NESDB 2017 Poster" id="poster"width="100%" onclick="printImg()"></p>
+<p><img src="https://nesdb2017.github.io/home/NESDB2017-poster_4.jpg" name="posterPrint" alt="NESDB 2017 Poster" id="posterPrint"width="100%" onclick="printImg(); return false;"></p>
 </div>
 </div>
 <script type="text/javascript">
 function printImg() {
-  pwin = window.open(document.getElementById("poster").src,"_blank");
-  
+  pwin = window.open(document.getElementById("posterPrint").src,"_blank");
+  pwin.onload = function () {window.print();}
 }
 </script>
+
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/nesdb2017.github.io\/","name":"2017 Northeast Regional Society for Developmental Biology","potentialAction":{"@type":"SearchAction","target":"https:\/\/nesdb2017.github.io\/?s={search_term_string}","query-input":"required name=search_term_string"}}
 </script>
 <script type="text/javascript" src="https://nesdb2017.github.io/home/includes/js/jquery/jquery.js"></script>
